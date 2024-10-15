@@ -1,6 +1,12 @@
+# Kria KR260 PMOD and RPI Pico I/O Mapping 
 
+### How it looks on the Board Itself
+![KR260_PMOD_Layout](images/KR260_PMOD_Layout.png)
+
+### The PMOD Schematic
 ![PMOD_SCHEMATIC](images/pmodSchema.png)
 
+### Table for PMOD Connections
 
 | Pmod #     | SOM IO Name   | FPGA Pin |
 |------------|:-------------:|---------:|
@@ -45,4 +51,10 @@
 | pmod4_pin4 | som240_2_b45  |   AD10   |
 | pmod4_pin6 | som240_2_b46  |   AA11   |
 | pmod4_pin8 | som240_2_b48  |   AA10   |
+
+![Kria_KR260_IO_Mapping](images/Kria_KR260_IO_Mapping.png)
+
+### RPI Pico Header Pinout
+![Kria_KR260_RPI_Header_Pinout](images/Kria_KR260_RPI_Header_Pinout.png)
+
 
